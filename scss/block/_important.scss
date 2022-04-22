@@ -1,0 +1,46 @@
+.important {
+    padding-bottom: 130px;
+}
+.importent-row {
+}
+.important-text {
+    margin-bottom: 92px;
+}
+.importent-title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.important-content {
+    display: flex;
+}
+.important-card img + img {
+    margin-right: 75px;
+}
+.important-card-logo {
+    margin-bottom: 37px;
+}
+.imortant-card-title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.important-card-subtitle {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    max-width: -1px;
+}
+.important-card-subtitle:nth-last-child(1) {
+    margin-right: 75px;
+}

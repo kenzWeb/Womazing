@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+h2,h3,h4,h5,h6,p,a {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.arrow-black {
+    transform: translateY(35%);
+}
+.arrow-black2 {
+    transform: translateY(35%);
+}
+.none {
+    display: none !important;
+}
+.active-border {
+    border: 2px solid black;
+}
+.successfully {
+    background-color: #F1EADC;;
+    padding: 30px 75px 30px 75px;
+}
+.img-big {
+    min-width: 536px;
+    min-height: 729px;
+}
+.glow-card {
+    margin-right: 30px;
+}

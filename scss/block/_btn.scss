@@ -1,0 +1,26 @@
+.btn {
+    color: white;
+    background: #6E9C9F;
+    padding: 22px 50px;
+    transition: all 0.5s ease;
+    &:hover {
+        background: #509498
+    }
+}
+
+.border-btn {
+    padding: 22px 50px;
+    border: #6E9C9F solid 1px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+    transition: 0.5s ease all;
+    &:hover{
+        background: #6E9C9F;
+        color: white;
+    }
+}

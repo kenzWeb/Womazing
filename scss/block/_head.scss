@@ -1,0 +1,79 @@
+.head {
+    padding-bottom: 184px;
+}
+.head-row {
+    display: flex;
+}
+.head-content {
+    float: right;
+}
+.head-text {
+    margin-top: 188px;
+    max-width: 585px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 45px;
+}
+.head-title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    max-width: 385px;
+    text-align: right;
+    color: #000000;
+}
+.head-btn {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    letter-spacing: 0.02em;
+
+    color: white;
+    display: flex;
+    margin-top: 52px;
+    margin-left: 72px;
+    align-items: center;
+}
+.head-arrow-top {
+    z-index: 2;
+    background: rgba(110, 156, 159, 0.1);
+    padding: 19px 27px;
+    transform: 0.5s ease all;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+.head-button {
+    color: white;
+    background: #6E9C9F;
+    padding: 22px 50px;
+    transition: all 0.5s ease;
+    &:hover {
+        background: #509498
+    }
+}
+.head-photo {
+    z-index: 2;
+    margin-top: 45px;
+    padding-left: 2px;
+}
+.head-hard1 {
+    position: relative;
+    z-index: -2;
+}
+.head-hard2 {
+    position: absolute;
+    margin-left: -92px;
+    padding-top: 122px;
+    
+}
+.head-hard3 {
+    padding-top: -100px;
+}

@@ -1,0 +1,64 @@
+.header {
+    padding-top: 53px;
+    z-index: 50;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-right: 146px;
+}
+.header-nav {
+    margin-right: 177px;
+    ul {
+        display: flex;
+    }
+    li + li {
+        margin-left: 45px;
+    }
+    a {
+        position: relative;
+        transition: 0.5s ease;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        font-weight: none;
+
+    }
+    a:hover {
+        color: #6E9C9F;
+    }
+}
+
+.header-phone {  
+    align-items: center;
+    display: flex;
+}
+.header-telephone {
+    padding-top: 9px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+.header-logo-phone {
+    align-items: center;
+    padding-top: 3px;
+    margin-right: 15px;
+    fill: white;
+    display: block;
+    
+    &:hover {
+        fill: white;
+    }
+}
+.header-basket {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+    margin-left: 67px;
+}

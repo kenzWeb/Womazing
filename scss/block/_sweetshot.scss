@@ -1,0 +1,148 @@
+.sweetshot {
+    font-family: 'Raleway';
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    padding-top: 116px;
+}
+.sweetshot-head {
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    margin-bottom: 26px;
+}
+.sweetshot-basic {
+    display: flex;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+.sweetshot-link {
+    margin-right: 13px;
+}
+.sweetshot-gray {
+    color: #919191;
+}
+.sweetshot-product {
+    display: flex;
+    padding-bottom: 130px;
+}
+.sweetshot-product-img {
+    margin-top: 102px;
+    margin-right: 74px;
+}
+.sweetshot-variant {
+    margin-top: 219px;
+}
+.variant-price {
+    display: flex;
+    align-items: center;
+    color: #998E78;
+    h2 + h2 {
+        margin-left: 29px;
+    }
+    margin-bottom: 59px;
+}
+.new-price {
+    color: #998E78;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+}
+.old-price {
+    text-decoration-line: line-through;
+    font-size: 30px;
+    color: #9C9C9C;
+}
+.variant-size-text {
+    font-size: 20px;
+    margin-bottom: 34px;
+}
+.varint-size-people {
+    display: flex;
+    a + a {
+        margin-left: 14px;
+    }
+}
+.size-number {
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    border: 1px solid black;
+}
+.size-number:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.sizeS {
+    padding: 9px 15px 9px 15px;
+}
+.sizeM {
+    padding: 9px 13px 8px 13px;
+}
+.sizeL {
+    padding: 9px 16px 8px 15px;
+}
+.sizeXL {
+    padding: 9px 9px 8px 10px;
+}
+.variant-color {
+    margin-top: 59px;
+}
+.variant-color-head {
+    font-size: 20px;
+}
+.variant-color-var {
+    display: flex;
+    margin-top: 34px;
+}
+.color-our {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin-right: 14px;
+    &:hover {
+        border: 2px solid #000000;
+    }
+}
+.brown {
+    transition: all 0.5s ease;
+    background: linear-gradient(0deg, #927876, #927876), #927876;
+}
+.gray {
+    background: #D5D5D5;
+}
+.pink {
+    background: #FD9696;
+}
+.orange {
+    background: #FDC796;
+}
+.variant-button {
+    display: flex;
+    text-align: center;
+    margin-top: 59px;
+    color: black;
+}
+.variant-arrow-top {
+    margin-right: 11px;
+    font-size: 20px;
+    padding: 18px 28px 20px 28px;
+    border: 1px solid #AFAFAF;
+}
+.variant-button-dop {
+    span {
+        color: white;
+    }
+}
+.sweetshot-related {
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+}
+.sweetshot-related-head {
+    margin-bottom: 67px;
+}
+.sweetshot-related-images {
+    display: flex;
+}
